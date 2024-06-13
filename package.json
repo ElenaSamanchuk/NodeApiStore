@@ -3,7 +3,8 @@
         "homepage": "https://ElenaSamanchuk.github.io/NodeApiStore/",
         "main" : "app.js",
         "start": {
-            "node app.js"
+            "predeploy": "npm run app.js",
+            "deploy": "gh-pages -d app.js"
         }
     }
 }
