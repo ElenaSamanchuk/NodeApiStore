@@ -1,10 +1,19 @@
 {
-    "scripts" : {
-        "homepage": "https://ElenaSamanchuk.github.io/NodeApiStore/",
-        "main" : "app.js",
-        "start": {
-            "predeploy": "npm run app.js",
-            "deploy": "gh-pages -d app.js"
-        }
-    }
+        "name": "NodeApiStore",
+        "main": "app.js",
+        "scripts": {
+            "deploy": "./bin/NodeApiStore"
+        },
+        "bin": "./bin/NodeApiStore",
+        "NodeApiStore": {
+            "staticpath": "public"
+          },
+        "repository": {
+            "type": "git",
+            "url": "https://github.com/ElenaSamanchuk/NodeApiStore.git"
+          },
+        "bugs": {
+            "url": "https://github.com/ElenaSamanchuk/NodeApiStore.git"
+          },
+        "homepage": "https://github.com/ElenaSamanchuk/NodeApiStore"
 }
