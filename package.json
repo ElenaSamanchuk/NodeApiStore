@@ -1,0 +1,5 @@
+{
+    "scripts" : {
+        "start": "node app.js --port=3000 --hostname=127.0.0.1"
+    }
+}
